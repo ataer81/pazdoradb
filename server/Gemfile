@@ -44,6 +44,7 @@ group :development, :test do
 
   # rspec add by jwang
   gem 'rspec-rails', '~> 3.0'
+  gem 'capybara'
 end
 
 gem 'therubyracer', :platforms => :ruby

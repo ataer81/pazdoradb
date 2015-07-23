@@ -89,4 +89,7 @@ RSpec.configure do |config|
   # as the one that triggered the failure.
   Kernel.srand config.seed
 =end
+  ENV['RAILS_ENV'] = 'test'
+  require File.expand_path('../../config/environment', __FILE__)
+  config.include Capybara::DSL
 end
