@@ -48,3 +48,6 @@ group :development, :test do
 end
 
 gem 'therubyracer', :platforms => :ruby
+
+gem 'bootstrap-sass'
+gem 'sprockets'

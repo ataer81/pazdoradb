@@ -25,5 +25,6 @@ module Pazdoradb
     config.generators do |g|
       g.test_framework = "rspec"
     end
+    config.assets.precompile += %w(*.png *.jpg *.jpeg *.gif)
   end
 end
